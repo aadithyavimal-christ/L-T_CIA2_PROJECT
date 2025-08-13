@@ -1,0 +1,25 @@
+.calculator-btn {
+    transition: all 0.2s;
+}
+
+.calculator-btn:active {
+    transform: scale(0.95);
+}
+
+.transaction-item:hover {
+    background-color: #f3f4f6;
+}
+
+.category-tag {
+    transition: all 0.2s;
+}
+
+.category-tag:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .main-grid {
+        grid-template-columns: 1fr;
+    }
+}
